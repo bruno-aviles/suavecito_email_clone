@@ -5,6 +5,31 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>SUAVECITO EMAIL CLONE</title>
+        <!-- responsive -->
+        <style> 
+            /* desktop */
+            @media screen and (min-width: 960px) {
+                
+            }
+            /* mid-size */
+            @media screen and (max-width: 960px) {
+                
+            }
+            /* mobile */
+            @media screen and (max-width: 600px) {
+                .email-template{
+                    width: 100%;
+                }
+                .model-image-column{
+                    width: 100%;
+                }
+                .firme-clay-instructions-column{
+                    width: 100%;
+                }
+            }
+
+
+        </style>
     </head>
     <body style="margin: 0;">
         <!-- main table -->
@@ -12,7 +37,7 @@
             <tr>
                 <td>
                     <!-- table template width 600px -->
-                    <table width="600px" cellpadding="0" cellspacing="0"  align="center" bgcolor="#ffffff">
+                    <table class="email-template" width="600px" cellpadding="0" cellspacing="0"  align="center" bgcolor="#ffffff">
                         <!-- email header start -->
                         <tr>
                             <td>
@@ -68,7 +93,7 @@
                         <!-- back in stock start -->
                         <tr>
                             <td>
-                                <table cellpadding="0" cellspacing="0" width="100%">
+                                <table class="back-in-stock" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td>
                                             <a href="#" style="display: inline-block;">
@@ -83,7 +108,7 @@
                         <!-- pomade details start -->
                         <tr>
                             <td>
-                                <table cellpadding="0" cellspacing="0" width="100%">
+                                <table class="pomade-details" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td>
                                             <a href="#" style="display: inline-block;">
@@ -98,7 +123,7 @@
                         <!-- back in stock banner start -->
                         <tr>
                             <td>
-                                <table cellpadding="0" cellspacing="0" width="100%">
+                                <table class="back-in-stock-banner" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td bgcolor="pink">
                                             <a href="#" style="display: inline-block;">
@@ -116,8 +141,8 @@
                                 <table class="firme-clay-info-table" cellpadding="0" cellspacing="0" width="100%">           
                                     <tr>
                                         <td>
-                                            <!-- model image start -->
-                                            <table class="model-image-column" cellpadding="0" cellspacing="0" width="100%">
+                                            <!-- column left -->
+                                            <table class="model-image-column" cellpadding="0" cellspacing="0" align="left" width="50%">
                                                 <tr>
                                                     <td>
                                                         <a href="#" style="display: inline-block;" >
@@ -126,11 +151,8 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <!-- model image end -->
-                                        </td>
-                                        <td>
-                                            <!-- firme clay instructions start -->
-                                            <table class="firme-clay-instructions-image" cellpadding="0" cellspacing="0"  width="100%">
+                                            <!-- column right -->
+                                            <table class="firme-clay-instructions-column" cellpadding="0" cellspacing="0" align="right"  width="50%">
                                                 <tr>
                                                     <td>
                                                         <a href="#" style="display: inline-block;">
@@ -139,8 +161,8 @@
                                                     </td>
                                                 </tr>
                                             </table>
-                                            <!-- firme clay instructions end -->
                                         </td>
+                                        
                                     </tr>
                                     
                                 </table>
@@ -150,7 +172,7 @@
                         <!-- suavecito monsters start -->
                         <tr>
                             <td>
-                                <table class="firme-clay-info-table" cellpadding="0" cellspacing="0" width="100%">
+                                <table class="suavecito-monsters" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td>
                                             <a href="#" style="display: inline-block;">
@@ -165,7 +187,7 @@
                         <!-- suavecito free gift start -->
                         <tr>
                             <td>
-                                <table class="firme-clay-info-table" cellpadding="0" cellspacing="0" width="100%">
+                                <table class="free-gift-table" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td>
                                             <a href="#" style="display: inline-block;">
@@ -180,7 +202,7 @@
                         <!-- suavecito free shipping start -->
                         <tr>
                             <td>
-                                <table class="firme-clay-info-table" cellpadding="0" cellspacing="0" width="100%">
+                                <table class="free-shipping-table" cellpadding="0" cellspacing="0" width="100%">
                                     <tr>
                                         <td>
                                             <a href="#" style="display: inline-block;">
